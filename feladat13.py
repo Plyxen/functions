@@ -25,6 +25,5 @@ def terulet(sugar):
     return sugar**2*3.14
 
 def korkiiras(sugar):
-    print(f"A kör kerülete: {kerulet()}")
-    print(f"A kör területe: {terulet()}")
-    
+    print(f"A kör kerülete: {kerulet(sugar)}")
+    print(f"A kör területe: {terulet(sugar)}")
